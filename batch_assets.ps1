@@ -1,42 +1,53 @@
-# batch_assets.ps1 - Batched Asset Upload for Unity
+# push_files_individually.ps1 - Pushes Assets File-by-File
 
-Write-Host "==> Starting Incremental Asset Upload..." -ForegroundColor Green
+Write-Host "==> Gathering all files inside Assets/..." -ForegroundColor Cyan
 
-# 1. Get all top-level subfolders inside Assets/
-$subfolders = Get-ChildItem -Path "Assets" -Directory
+# Fetch all individual files inside Assets (recursively)
+$files = Get-ChildItem -Path "Assets" -Recurse -File
 
-foreach ($folder in $subfolders) {
-    $folderPath = "Assets/$($folder.Name)"
-    Write-Host "--> Processing subfolder: $folderPath" -ForegroundColor Yellow
+$total = $files.Count
+$current = 0
+$failedFiles = @()
 
-    # Stage only this subfolder
-    git add "$folderPath"
+Write-Host "==> Found $total individual files. Starting file-by-file upload..." -ForegroundColor Green
 
-    # Check if anything was staged
-    $status = git status --porcelain
+foreach ($file in $files) {
+    $current++
+    # Get the relative path (e.g., "Assets/Textures/Rock_Diffuse.png")
+    $relativePath = Resolve-Path -Relative $file.FullName
+
+    # Check if Git sees this file as needing an update/upload
+    git add "$relativePath"
+    $status = git status --porcelain "$relativePath"
+
     if ($status) {
-        git commit -m "Feat: Upload $folderPath assets"
-        Write-Host "==> Pushing $folderPath to GitHub..." -ForegroundColor Cyan
-        git push origin main
+        Write-Host "[$current/$total] Pushing file: $relativePath" -ForegroundColor Yellow
         
-        if ($LASTEXITCODE -ne 0) {
-            Write-Host "ERROR: Push failed on $folderPath. Script paused so you can inspect." -ForegroundColor Red
-            break
+        git commit -m "Feat: Upload $relativePath" | Out-Null
+        git push origin main
+
+        if ($LASTEXITCODE -eq 0) {
+            Write-Host "  └--> SUCCESS: $relativePath is live on GitHub!" -ForegroundColor Green
+        } else {
+            Write-Host "  └--> ERROR: Failed to push $relativePath!" -ForegroundColor Red
+            $failedFiles += $relativePath
+            # Reset stage for this file so it doesn't block the next ones
+            git reset "$relativePath" | Out-Null
         }
-        Write-Host "SUCCESS: $folderPath is on GitHub!" -ForegroundColor Green
     } else {
-        Write-Host "--> No untracked changes in $folderPath, skipping." -ForegroundColor DarkGray
+        Write-Host "[$current/$total] Skipped (already on server or ignored): $relativePath" -ForegroundColor DarkGray
     }
 }
 
-# 2. Final catch-all for loose files directly under Assets/ (scenes, materials, root .meta files)
-Write-Host "==> Staging loose files directly under Assets/ and Root..." -ForegroundColor Cyan
-git add Assets/ .
-$finalStatus = git status --porcelain
-if ($finalStatus) {
-    git commit -m "Chore: Finalize remaining loose project assets"
-    git push origin main
-    Write-Host "SUCCESS: Loose assets pushed!" -ForegroundColor Green
-}
+Write-Host "`n==========================================" -ForegroundColor Cyan
+Write-Host "FILE-BY-FILE UPLOAD PROCESS COMPLETE!" -ForegroundColor Green
+Write-Host "Total Processed: $total" -ForegroundColor Green
 
-Write-Host "==> ALL ASSETS SUCCESSFULLY PUSHED TO GITHUB!" -ForegroundColor Green
+if ($failedFiles.Count -gt 0) {
+    Write-Host "`nThe following $($failedFiles.Count) file(s) failed to push (check if any individual file is > 100MB):" -ForegroundColor Red
+    foreach ($failed in $failedFiles) {
+        Write-Host " - $failed" -ForegroundColor Red
+    }
+} else {
+    Write-Host "All files were uploaded cleanly with zero errors!" -ForegroundColor Green
+}
