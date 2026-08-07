@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdb7591d6410474c957b008db14590d, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  Name: 1
+  Mesh: {fileID: -3131381100171788129, guid: 067fbf984548c1b4e9b5d6da6f32387c, type: 3}
+  RedMaterials:
+  - {fileID: 2100000, guid: 1af020b00618a6d41b44aa0e6d2a8d1c, type: 2}
+  - {fileID: 2100000, guid: a5e82c50fb958c440ad784e859332f76, type: 2}
+  - {fileID: 2100000, guid: 1c898fb243d7d414fa9e4558a075ce29, type: 2}
+  - {fileID: 2100000, guid: 45e11dc0cff6c68419383302a3d10e79, type: 2}
+  BlueMaterials:
+  - {fileID: 2100000, guid: bf3dd5ffeabff384d8a877f14f0f197c, type: 2}
+  - {fileID: 2100000, guid: 2b0d3ee4a6e350e45a3475dd4333d462, type: 2}
+  - {fileID: 2100000, guid: 3a03fec94e1f69d4f99a1daa2ce0a8a3, type: 2}
+  - {fileID: 2100000, guid: 7e88909bfddd5174fbbb094b85ccf7ad, type: 2}
+  GreyMaterials:
+  - {fileID: 2100000, guid: 2e09c632fe596d4488a4b42f0b069956, type: 2}
+  - {fileID: 2100000, guid: a4a4e5808f745fe458dd9f04d2087827, type: 2}
+  - {fileID: 2100000, guid: f60101654b326964c958eb0774bdf3aa, type: 2}
+  - {fileID: 2100000, guid: 4034fafb44b560844843be76603e98a2, type: 2}
+  FunctionalAnimation: {fileID: 0}
+  AccentAnimation: {fileID: 0}

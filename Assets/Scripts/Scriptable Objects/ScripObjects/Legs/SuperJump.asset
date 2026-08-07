@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdb7591d6410474c957b008db14590d, type: 3}
+  m_Name: SuperJump
+  m_EditorClassIdentifier: 
+  Name: 3
+  Mesh: {fileID: 8242070861836583789, guid: 067fbf984548c1b4e9b5d6da6f32387c, type: 3}
+  RedMaterials:
+  - {fileID: 2100000, guid: 8203da0b62066d240bb31725ef5dfb71, type: 2}
+  - {fileID: 2100000, guid: 536f64440ef6cb54b87d3f1d23597def, type: 2}
+  - {fileID: 2100000, guid: ed892e695d7ba2d4bbd926705be76da0, type: 2}
+  - {fileID: 2100000, guid: a358f88f88a02d349872b7bdead81593, type: 2}
+  - {fileID: 2100000, guid: b1ba4dd8d7c8fba478da13abe198f65b, type: 2}
+  - {fileID: 2100000, guid: e719f5b4fc52fc2439fec4794966d8c4, type: 2}
+  BlueMaterials:
+  - {fileID: 2100000, guid: 196e4ba5c7e79964a8644718c3ab0c29, type: 2}
+  - {fileID: 2100000, guid: 6c9f27d672166a64d86de2872eb16aaf, type: 2}
+  - {fileID: 2100000, guid: 1e80e3391a5062b4cb1393244a19eba4, type: 2}
+  - {fileID: 2100000, guid: 232737356afd6b44e9d325a887f75e93, type: 2}
+  - {fileID: 2100000, guid: d36917b6600f0c149a7af4541d770be4, type: 2}
+  - {fileID: 2100000, guid: 25a92547ed1fc8e42bb592666c50e5f2, type: 2}
+  GreyMaterials:
+  - {fileID: 2100000, guid: b9fe677cfc52981409bd2774bcbd5bae, type: 2}
+  - {fileID: 2100000, guid: f441b199d75bb7a4aa99ee80f8af6ded, type: 2}
+  - {fileID: 2100000, guid: 3fb16b8218e1d444f8329b58ab16f7fb, type: 2}
+  - {fileID: 2100000, guid: b9b466a0070075d428a6730abec88e32, type: 2}
+  - {fileID: 2100000, guid: 4f491f0b5cd40e4408bba4c90af46098, type: 2}
+  - {fileID: 2100000, guid: 2641f657e2b828a4aa0593c14d4e1f63, type: 2}
+  FunctionalAnimation: {fileID: 0}
+  AccentAnimation: {fileID: 0}
