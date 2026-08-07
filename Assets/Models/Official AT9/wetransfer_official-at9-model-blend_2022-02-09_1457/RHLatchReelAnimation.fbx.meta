@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: 691516506e07b1042b593b86c4e8ca51
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 7993928368406066748
+    second: Armature - RH_Hook Liner Lever|Action.005
+  - first:
+      74: 7562369108854478667
+    second: Armature - RH_Hook Liner Lever|ArmatureAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature - RH_Hook Liner Lever|Action.005
+      takeName: Armature - RH_Hook Liner Lever|Action.005
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot_end
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot_end
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head 1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: RHLatchReelAnimation(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C_Pump Up Pistons_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 2.28092, z: 0.00000017881396}
+      rotation: {x: 0.00000008146034, y: -0.000000043711395, z: 7.84925e-15, w: 1}
+      scale: {x: 19.602709, y: 19.602709, z: 19.602709}
+    - name: L_Dash Screws_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: -0.0000002384186, z: 0}
+      rotation: {x: -0.7071067, y: -0.00000003090861, z: 0.000000030908613, w: 0.7071068}
+      scale: {x: 37.970016, y: 50.2477, z: 37.970016}
+    - name: LH_Exploding Mines Swivel_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0.7425001, y: 2.4380858, z: -0.009697091}
+      rotation: {x: -0.7038514, y: 0.067773245, z: -0.06777325, w: 0.7038514}
+      scale: {x: 21.300001, y: 21.300003, z: 21.300001}
+    - name: RH_Exploding Mines Swivel_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: 0.7424999, y: 2.438086, z: -0.009697091}
+      rotation: {x: -0.7038514, y: -0.067773245, z: 0.06777325, w: 0.7038514}
+      scale: {x: 21.300001, y: 21.300003, z: 21.300001}
+    - name: LH_Hook Liner Lever_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0.74250007, y: 2.4380856, z: -0.00969709}
+      rotation: {x: -0.7038514, y: 0.067773215, z: -0.06777321, w: 0.7038514}
+      scale: {x: 21.300001, y: 21.300001, z: 21.300001}
+    - name: RH_Hook Liner Lever_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0.7424999, y: 2.4380856, z: -0.00969709}
+      rotation: {x: -0.7038514, y: 0.067773215, z: -0.06777321, w: 0.7038514}
+      scale: {x: 21.300001, y: 21.300001, z: 21.300001}
+    - name: LH_Particle Accelerator Rings_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: 0.7424999, y: 2.4380858, z: -0.00969709}
+      rotation: {x: -0.7038514, y: -0.06777323, z: 0.06777324, w: 0.7038514}
+      scale: {x: 21.299997, y: 21.300001, z: 21.299997}
+    - name: RH_Particle Accelerator Rings_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: 0.74250007, y: 2.4380856, z: -0.00969709}
+      rotation: {x: -0.7038514, y: -0.06777323, z: 0.06777324, w: 0.7038514}
+      scale: {x: 21.299997, y: 21.300001, z: 21.299997}
+    - name: C_Printing Module_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 2.3126094, z: 0.00000005960466}
+      rotation: {x: -0.7071067, y: -0.000000030908627, z: 0.000000030908627, w: 0.7071068}
+      scale: {x: 110.321, y: 110.321, z: 110.321}
+    - name: C_Battery_Accent
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100.000015, y: 100.000015, z: 100.000015}
+    - name: Head
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: 0.0050319466, y: 3.2936163, z: -0.06862368}
+      rotation: {x: -0.7071067, y: -0.000000030908623, z: 0.000000030908627, w: 0.7071068}
+      scale: {x: 70.60699, y: 70.60699, z: 70.60699}
+    - name: Chest
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 2.139611, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 67.48799, y: 67.48799, z: 67.48799}
+    - name: C_Shield
+      parentName: Chest
+      position: {x: -0, y: -0.000000001766378, z: 0.0025633979}
+      rotation: {x: 0.000000081460364, y: -0.00000007549792, z: 7.322532e-15, w: 1}
+      scale: {x: 0.52017224, y: 0.52017224, z: 0.52017224}
+    - name: C_Printing
+      parentName: Chest
+      position: {x: -0, y: -8.8318874e-10, z: 0.0025633883}
+      rotation: {x: 0.00000008146033, y: -0.000000043711395, z: 3.560744e-15, w: 1}
+      scale: {x: 1.6346754, y: 1.6346754, z: 1.6346754}
+    - name: C_PumpUp
+      parentName: Chest
+      position: {x: -0, y: -0.0000000026495663, z: 0.0020938348}
+      rotation: {x: 0.7071068, y: -0.00000003090863, z: -0.00000003090862, w: 0.7071067}
+      scale: {x: 0.29046208, y: 0.29046208, z: 0.29046208}
+    - name: C_JetPack
+      parentName: Chest
+      position: {x: 6.8049105e-18, y: -0.0000000026495663, z: 0.0022243808}
+      rotation: {x: 0.00000008146034, y: -0.000000075497894, z: 7.489786e-15, w: 1}
+      scale: {x: 0.41240376, y: 0.41240376, z: 0.4367135}
+    - name: Legs
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 1.4502034, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 59.272064, y: 59.272064, z: 59.272064}
+    - name: L_Dash
+      parentName: Legs
+      position: {x: -0, y: 0, z: -0.024466902}
+      rotation: {x: 0.00000008146034, y: -0.000000043711378, z: 3.5607444e-15, w: 1}
+      scale: {x: 0.64060557, y: 0.8477467, z: 0.64060557}
+    - name: L_Stomp
+      parentName: Legs
+      position: {x: -0, y: 0, z: -0.0244669}
+      rotation: {x: 0.00000008146035, y: -0.000000043711392, z: 3.560746e-15, w: 1}
+      scale: {x: 0.6984491, y: 0.8248617, z: 0.6984491}
+    - name: L_BullRush
+      parentName: Legs
+      position: {x: -0, y: 0.00080138934, z: -0.024466898}
+      rotation: {x: 0.000000081460335, y: -0.000000075497894, z: 4.977638e-15, w: 1}
+      scale: {x: 0.5145763, y: 0.5145763, z: 0.5145763}
+    - name: L_SuperJump
+      parentName: Legs
+      position: {x: -0, y: 0, z: -0.0244669}
+      rotation: {x: 0.00000008146036, y: -0.000000075497915, z: 4.9776382e-15, w: 1}
+      scale: {x: 0.67485404, y: 0.7879998, z: 0.67485404}
+    - name: Lefthand
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0.8173423, y: 2.139611, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 33.821655, y: 33.821655, z: 33.821655}
+    - name: LH_PortalGun
+      parentName: Lefthand
+      position: {x: -0.0047976086, y: -0.0011471731, z: -0.027240722}
+      rotation: {x: 0.000000021755076, y: 0.095845796, z: -0.000000002094776, w: 0.9953962}
+      scale: {x: 0.6297741, y: 0.6297741, z: 0.6297741}
+    - name: LH_BigShot
+      parentName: Lefthand
+      position: {x: -0.00337152, y: 0.00028671362, z: -0.019904107}
+      rotation: {x: 0.000000021755076, y: -0.095845796, z: 0.000000002094776, w: 0.9953962}
+      scale: {x: 0.6297741, y: 0.6297741, z: 0.6297741}
+    - name: LH_Latch
+      parentName: Lefthand
+      position: {x: 0.002212851, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021755076, y: 0.09584578, z: -0.0000000020947761, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_PunchGlove
+      parentName: Lefthand
+      position: {x: 0.04611963, y: 0.00028671234, z: 0.008824968}
+      rotation: {x: 0.000000021252454, y: -0.09584579, z: 0.0000000073147355, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.62977403, z: 0.6297739}
+    - name: LH_FeviTop
+      parentName: Lefthand
+      position: {x: 0.002212851, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: -0.00000002175508, y: 0.095845796, z: 0.0000000020947772, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_FlamerThrower
+      parentName: Lefthand
+      position: {x: -0.00327286, y: 0.00028668842, z: -0.019396871}
+      rotation: {x: 0.000000021252449, y: -0.09584578, z: 0.0000000073147373, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_ParticleAccelerator
+      parentName: Lefthand
+      position: {x: 0.046119627, y: 0.00028671243, z: 0.008824954}
+      rotation: {x: 0.000000021252461, y: -0.095845796, z: 0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_BubbleGun
+      parentName: Lefthand
+      position: {x: 0.002212851, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021252461, y: 0.095845796, z: -0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_ElectroBall
+      parentName: Lefthand
+      position: {x: 0.0022128485, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021252461, y: 0.095845796, z: -0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: LH_ExplodingMines
+      parentName: Lefthand
+      position: {x: 0.0022128485, y: 0.00028671246, z: 0.008824954}
+      rotation: {x: 0.000000021755076, y: 0.09584578, z: -0.0000000020947755, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.62977403, z: 0.6297739}
+    - name: Righthand
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: 0.7744967, y: 2.139611, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 33.821655, y: 33.821655, z: 33.821655}
+    - name: RH_BigShot
+      parentName: Righthand
+      position: {x: 0.0046383357, y: 0.00028671362, z: -0.019904094}
+      rotation: {x: 0.000000021755074, y: -0.09584579, z: 0.0000000020947757, w: 0.9953962}
+      scale: {x: 0.6297741, y: 0.6297742, z: 0.6297741}
+    - name: RH_PortalGun
+      parentName: Righthand
+      position: {x: 0.0060644243, y: -0.0011471733, z: -0.027240701}
+      rotation: {x: 0.000000021755076, y: 0.095845796, z: -0.000000002094776, w: 0.9953962}
+      scale: {x: 0.6297741, y: 0.6297741, z: 0.6297741}
+    - name: RH_Latch
+      parentName: Righthand
+      position: {x: -0.04485282, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021755076, y: 0.09584578, z: -0.0000000020947761, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_PunchGlove
+      parentName: Righthand
+      position: {x: -0.00094603776, y: 0.00028671234, z: 0.008824968}
+      rotation: {x: 0.000000021252454, y: -0.09584579, z: 0.0000000073147355, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.62977403, z: 0.6297739}
+    - name: RH_FeviTop
+      parentName: Righthand
+      position: {x: -0.04485282, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: -0.00000002175508, y: 0.095845796, z: 0.0000000020947772, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_FlamerThrower
+      parentName: Righthand
+      position: {x: -0.050338525, y: 0.00028668842, z: -0.019396871}
+      rotation: {x: 0.000000021252449, y: -0.09584578, z: 0.0000000073147373, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_ParticleAccelerator
+      parentName: Righthand
+      position: {x: -0.00094604254, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021252461, y: -0.095845796, z: 0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_BubbleGun
+      parentName: Righthand
+      position: {x: -0.04485282, y: 0.00028671243, z: 0.008824954}
+      rotation: {x: 0.000000021252461, y: 0.095845796, z: -0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_ElectroBall
+      parentName: Righthand
+      position: {x: -0.04485282, y: 0.00028671243, z: 0.0088249445}
+      rotation: {x: 0.000000021252461, y: 0.095845796, z: -0.0000000073147386, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.6297739, z: 0.6297739}
+    - name: RH_ExplodingMines
+      parentName: Righthand
+      position: {x: -0.0009460449, y: 0.00028671246, z: 0.0088249585}
+      rotation: {x: 0.000000021755076, y: -0.09584578, z: 0.0000000020947755, w: 0.9953962}
+      scale: {x: 0.6297739, y: 0.62977403, z: 0.6297739}
+    - name: Abdomen
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 2.31261, z: 0.00000011920935}
+      rotation: {x: -0.7071067, y: -0.000000030908627, z: 0.000000030908627, w: 0.7071068}
+      scale: {x: 35.105385, y: 35.105385, z: 35.105385}
+    - name: Accent Models
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 1.4502034, z: 1.3397261}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 28.494947, y: 28.494947, z: 28.494947}
+    - name: LH_Latch_Accent
+      parentName: Accent Models
+      position: {x: -0.02605725, y: 0.047356576, z: 0.03466868}
+      rotation: {x: 0.000000021755078, y: 0.09584579, z: -0.0000000020947761, w: 0.9953962}
+      scale: {x: 0.74750084, y: 0.74750084, z: 0.74750084}
+    - name: RH_Latch_Accent
+      parentName: Accent Models
+      position: {x: -0.026057245, y: 0.047356576, z: 0.03466867}
+      rotation: {x: 0.000000021755078, y: 0.09584578, z: -0.0000000020947766, w: 0.9953962}
+      scale: {x: 0.7475008, y: 0.7475008, z: 0.7475008}
+    - name: LH_PunchGlove_Accent
+      parentName: Accent Models
+      position: {x: 0.026057253, y: 0.047356576, z: 0.0346687}
+      rotation: {x: 0.000000021252458, y: -0.0958458, z: 0.000000007314738, w: 0.9953962}
+      scale: {x: 0.7475008, y: 0.7475009, z: 0.7475008}
+    - name: RH_PunchGlove_Accent
+      parentName: Accent Models
+      position: {x: 0.026057255, y: 0.047356576, z: 0.0346687}
+      rotation: {x: 0.000000021252458, y: -0.0958458, z: 0.000000007314738, w: 0.9953962}
+      scale: {x: 0.7475008, y: 0.7475009, z: 0.7475008}
+    - name: Accent Armatures
+      parentName: RHLatchReelAnimation(Clone)
+      position: {x: -0, y: 1.4502034, z: 1.7983083}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.327247, y: 13.327247, z: 13.327247}
+    - name: Armature - RH_Hook Liner Lever
+      parentName: Accent Armatures
+      position: {x: -0, y: 0.13493471, z: -0.108814925}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 7.503424, y: 7.503424, z: 7.503424}
+    - name: Hips
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: -0, y: 0, z: 0.014538806}
+      rotation: {x: 0.7071068, y: -0.000000084293696, z: -0.00000008429368, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0, y: 0.0039415644, z: 0}
+      rotation: {x: 0.00000002188555, y: 7.1054265e-15, z: 1.5550617e-22, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Spine1
+      parentName: Spine
+      position: {x: -1.6940657e-23, y: 0.0019169532, z: 8.881788e-18}
+      rotation: {x: -8.881784e-16, y: 1.4088098e-30, z: 2.439441e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -3.3881314e-23, y: 0.0022789359, z: 1.04555624e-23}
+      rotation: {x: -8.881784e-16, y: -7.1054274e-15, z: 1.768758e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Spine2
+      position: {x: -1.27054916e-23, y: 0.0027853346, z: 7.105429e-17}
+      rotation: {x: -8.881784e-16, y: 2.1316282e-14, z: 3.083158e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head 1
+      parentName: Neck
+      position: {x: -6.039727e-24, y: 0.0009731793, z: 1.9852335e-23}
+      rotation: {x: -2.664535e-15, y: -1.648358e-29, z: 2.586888e-22, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Head_end
+      parentName: Head 1
+      position: {x: -0, y: 0.008791499, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: Spine2
+      position: {x: -0.003386861, y: 0.0011794042, z: 6.001011e-10}
+      rotation: {x: 0.0008406809, y: -0.025250172, z: 0.6633097, w: 0.7479184}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: LeftArm
+      parentName: LeftShoulder
+      position: {x: -0.0000000015465775, y: 0.0038832687, z: 8.381903e-11}
+      rotation: {x: 0.010089972, y: 0.116307825, z: 0.064896815, w: 0.9910394}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000002}
+    - name: LeftForeArm
+      parentName: LeftArm
+      position: {x: 0.0000000010023359, y: 0.0057717785, z: 2.0954757e-10}
+      rotation: {x: 0.001210399, y: -0.0046816086, z: -0.00013835478, w: 0.9999883}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+    - name: LeftHand
+      parentName: LeftForeArm
+      position: {x: -0.0000000014909892, y: 0.0048196977, z: -1.16415315e-11}
+      rotation: {x: -0.013680944, y: 0.00014417678, z: 0.0025589985, w: 0.99990314}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: LeftHand_end
+      parentName: LeftHand
+      position: {x: -0, y: 0.0018999247, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: Spine2
+      position: {x: 0.0033868598, y: 0.0011794042, z: -9.0203595e-10}
+      rotation: {x: 0.000840527, y: 0.025250357, z: -0.6633097, w: 0.7479184}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: RightArm
+      parentName: RightShoulder
+      position: {x: 0.000000001619046, y: 0.0038832687, z: -3.7252902e-11}
+      rotation: {x: 0.015330994, y: -0.11663086, z: -0.065335155, w: 0.9909054}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.99999994}
+    - name: Lever.R
+      parentName: RightArm
+      position: {x: 0.0010787683, y: 0.006088084, z: 0.000025850431}
+      rotation: {x: 0.46604168, y: -0.43385735, z: 0.5597301, w: 0.5303539}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Lever.R_end
+      parentName: Lever.R
+      position: {x: -0, y: 0.0032812622, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: RightArm
+      position: {x: -0.0000000033224932, y: 0.005771778, z: -7.4505804e-11}
+      rotation: {x: 0.0012103996, y: 0.0046812166, z: 0.00013832908, w: 0.9999883}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: RightHand
+      parentName: RightForeArm
+      position: {x: -1.1845258e-10, y: 0.0048197, z: 1.7695129e-10}
+      rotation: {x: -0.013680946, y: -0.00014369762, z: -0.002558991, w: 0.99990314}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RightHand_end
+      parentName: RightHand
+      position: {x: -0, y: 0.0018999247, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: Hips
+      position: {x: -0.0029050708, y: 0.0014342701, z: 7.373864e-10}
+      rotation: {x: 0.9989537, y: -0.029593946, z: 0.0334623, w: -0.009800357}
+      scale: {x: 0.999976, y: 1.0000002, z: 0.9999994}
+    - name: LeftLeg
+      parentName: LeftUpLeg
+      position: {x: 9.837094e-11, y: 0.0054950463, z: 1.8626451e-11}
+      rotation: {x: 0.0026514218, y: -0.029425178, z: 0.0017024735, w: 0.999562}
+      scale: {x: 0.9999983, y: 1.0000002, z: 1.0000029}
+    - name: LeftFoot
+      parentName: LeftLeg
+      position: {x: -5.0175003e-10, y: 0.010104896, z: 4.6566128e-12}
+      rotation: {x: -0.72334296, y: 0.012785783, z: -0.014828448, w: 0.6902113}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: LeftFoot_end
+      parentName: LeftFoot
+      position: {x: -0, y: 0.0029029842, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: Hips
+      position: {x: 0.002905072, y: 0.0014342701, z: -6.3791017e-10}
+      rotation: {x: 0.99895376, y: 0.029647036, z: -0.03340607, w: -0.009823864}
+      scale: {x: 0.9999756, y: 1.0000002, z: 0.99999905}
+    - name: RightLeg
+      parentName: RightUpLeg
+      position: {x: 1.16415315e-11, y: 0.005495048, z: -3.7252902e-11}
+      rotation: {x: 0.0026499412, y: 0.029425245, z: -0.0017025477, w: 0.999562}
+      scale: {x: 0.9999982, y: 1, z: 1.0000033}
+    - name: RightFoot
+      parentName: RightLeg
+      position: {x: -5.791662e-10, y: 0.010104892, z: 2.3283064e-12}
+      rotation: {x: -0.723343, y: -0.01278587, z: 0.014828486, w: 0.69021124}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: RightFoot_end
+      parentName: RightFoot
+      position: {x: -0, y: 0.0029029842, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHandIK
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: 0.05441264, y: 0.0000000014807078, z: 0.055493444}
+      rotation: {x: 6.540011e-17, y: 0.99750775, z: -6.540011e-17, w: 0.07055704}
+      scale: {x: 1.296987, y: 1, z: 1.0062172}
+    - name: RightHandIK_end
+      parentName: RightHandIK
+      position: {x: -0, y: 0.0017148242, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFootIK
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: -0.0038888422, y: 0.00040595036, z: -0.0022680764}
+      rotation: {x: 0, y: 0.021560535, z: -0, w: 0.99976754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFootIK_end
+      parentName: LeftFootIK
+      position: {x: -0, y: 0.0018177395, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFootIK
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: 0.0038888426, y: 0.00040595036, z: -0.002160197}
+      rotation: {x: 0, y: -0.021560535, z: -0, w: 0.99976754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFootIK_end
+      parentName: RightFootIK
+      position: {x: -0, y: 0.0018177395, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHandIK
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: -0.05441264, y: 0.0000000014807078, z: 0.055493444}
+      rotation: {x: 5.675936e-17, y: 0.99750775, z: -5.675936e-17, w: -0.07055704}
+      scale: {x: 1.296987, y: 1, z: 1.0062172}
+    - name: LeftHandIK_end
+      parentName: LeftHandIK
+      position: {x: -0, y: 0.0017148242, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHandPole
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: -0.007993754, y: 0.0023625444, z: 0.039443024}
+      rotation: {x: 5.657041e-17, y: 0.9973, z: -5.657041e-17, w: -0.07343508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHandPole_end
+      parentName: LeftHandPole
+      position: {x: -0, y: 0.001521927, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHandPole
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: 0.007993754, y: 0.0023625444, z: 0.039443024}
+      rotation: {x: 6.556361e-17, y: 0.9973, z: -6.556361e-17, w: 0.07343508}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHandPole_end
+      parentName: RightHandPole
+      position: {x: -0, y: 0.001521927, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFootPole.L
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: -0.0034948625, y: -0.0047852453, z: 0.010510195}
+      rotation: {x: 0, y: 0.05128029, z: -0, w: 0.9986843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFootPole.L_end
+      parentName: LeftFootPole.L
+      position: {x: -0, y: 0.0015981125, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFootPole.R
+      parentName: Armature - RH_Hook Liner Lever
+      position: {x: 0.0034948625, y: -0.0047852453, z: 0.010510195}
+      rotation: {x: 0, y: -0.05128029, z: -0, w: 0.9986843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFootPole.R_end
+      parentName: RightFootPole.R
+      position: {x: -0, y: 0.0015981125, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
