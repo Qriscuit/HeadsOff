@@ -150,7 +150,15 @@ for ($index = 0; $index -lt $batchesToPublish.Count; $index++) {
     }
 
     $uniquePaths = @($pathsToStage | Sort-Object -Unique)
-    Invoke-Git add -- @uniquePaths
+    $pathspecFile = Join-Path ([System.IO.Path]::GetTempPath()) ("headsoff-git-pathspec-{0}.txt" -f [guid]::NewGuid())
+    try {
+        $pathspecBytes = [System.Text.Encoding]::UTF8.GetBytes((($uniquePaths -join "`0") + "`0"))
+        [System.IO.File]::WriteAllBytes($pathspecFile, $pathspecBytes)
+        Invoke-Git add "--pathspec-from-file=$pathspecFile" '--pathspec-file-nul'
+    }
+    finally {
+        Remove-Item -LiteralPath $pathspecFile -Force -ErrorAction SilentlyContinue
+    }
     & git -c $safeDirectoryArgument diff --cached --quiet
     if ($LASTEXITCODE -eq 0) {
         throw "Batch $($index + 1) did not produce staged changes."
