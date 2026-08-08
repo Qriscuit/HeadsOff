@@ -6,6 +6,9 @@ param(
     [ValidateRange(1, 4096)]
     [int]$BatchMiB = 128,
 
+    [ValidateRange(1, 4096)]
+    [int]$MaxBatches = 1,
+
     [switch]$Execute
 )
 
@@ -128,8 +131,13 @@ if (-not $Execute) {
     exit 0
 }
 
-for ($index = 0; $index -lt $batches.Count; $index++) {
-    $batch = $batches[$index]
+$batchesToPublish = @($batches | Select-Object -First $MaxBatches)
+if ($batchesToPublish.Count -lt $batches.Count) {
+    Write-Host "Executing $($batchesToPublish.Count) of $($batches.Count) planned batches. Re-run the script to continue."
+}
+
+for ($index = 0; $index -lt $batchesToPublish.Count; $index++) {
+    $batch = $batchesToPublish[$index]
     $pathsToStage = [System.Collections.Generic.List[string]]::new()
     foreach ($file in $batch.Files) {
         $relativePath = Get-RepositoryPath $file
@@ -157,4 +165,4 @@ for ($index = 0; $index -lt $batches.Count; $index++) {
     }
 }
 
-Write-Host "Published $($batches.Count) $Kind batch(es) successfully."
+Write-Host "Published $($batchesToPublish.Count) $Kind batch(es) successfully."
