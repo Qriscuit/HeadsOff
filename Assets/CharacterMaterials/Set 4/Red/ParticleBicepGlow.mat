@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ParticleBicepGlow
+  m_Shader: {fileID: -6465566751694194690, guid: 4fe1e471d56be2146babcc2b2dfd2c47, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_122c2ccc2a9841aa8016211313cb6204:
+        m_Texture: {fileID: 2800000, guid: 05d822b6b03e8bb4782f139c7d443a37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_54644d8103474d04864a54d012c6e361:
+        m_Texture: {fileID: 2800000, guid: f1a94470406975f4781fc493c723facd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a681725fa8324d70aefcfc55025aa6aa:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_ac112748793a498784fbc55dba8317cc:
+        m_Texture: {fileID: 2800000, guid: a3fc747050fee6d418fe9a3918a30c79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_d129c8fc9e3e4380a5d5815aeb479bc4:
+        m_Texture: {fileID: 2800000, guid: e4e327ae23541464690893b2a6e7be4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_a88977d586c841a196b4ef934f53c1cb: 1
+    - particleglow: 1
+    m_Colors:
+    - Color_4fcb51dbce4b4c959e31104147b4ad79: {r: 3.095754, g: 0, b: 0.03125939, a: 1}
+  m_BuildTextureStacks: []
