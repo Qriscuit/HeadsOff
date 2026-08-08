@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Log in Screen.unity
+    guid: eead0238c02ed0645ab3f215d6afdf28
+  - enabled: 1
+    path: Assets/Scenes/Player Lobby.unity
+    guid: ecd3a48e7ad05b3419f2f4a24bea5c3d
+  - enabled: 1
+    path: Assets/Scenes/Skyscraper.unity
+    guid: 49a32982e93c0a640add9fdc3286c4c0
+  - enabled: 1
+    path: Assets/Scenes/Ocean Factory.unity
+    guid: cda057abaa505814b99175e28d0300d6
+  - enabled: 1
+    path: Assets/Junkyard Level/Scenes/FINAL_EVENING.unity
+    guid: 226f79bb89f5bb44692d5af4dcb2f0f4
+  m_configObjects: {}
