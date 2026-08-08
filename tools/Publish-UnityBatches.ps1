@@ -14,6 +14,12 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+# PowerShell 7 can turn harmless native-tool stderr (for example Git's CRLF
+# notice) into a terminating error when ErrorActionPreference is Stop.
+if ($PSVersionTable.PSVersion.Major -ge 7) {
+    $PSNativeCommandUseErrorActionPreference = $false
+}
+
 $repositoryRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 Set-Location -LiteralPath $repositoryRoot
 $safeDirectoryArgument = "safe.directory=$($repositoryRoot -replace '\\', '/')"
