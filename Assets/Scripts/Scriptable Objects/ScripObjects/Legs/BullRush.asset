@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdb7591d6410474c957b008db14590d, type: 3}
+  m_Name: BullRush
+  m_EditorClassIdentifier: 
+  Name: 0
+  Mesh: {fileID: 9124825598646038488, guid: 067fbf984548c1b4e9b5d6da6f32387c, type: 3}
+  RedMaterials:
+  - {fileID: 2100000, guid: 673cfe21c58b9a745a69bf6720b15d6f, type: 2}
+  - {fileID: 2100000, guid: 85769527dbf522d459f703fbbc369dd6, type: 2}
+  - {fileID: 2100000, guid: 9f5106fa1c53cbe4e8a17d6e3049f96f, type: 2}
+  BlueMaterials:
+  - {fileID: 2100000, guid: 75059dc69c02e1f4bbaa9c240913a924, type: 2}
+  - {fileID: 2100000, guid: 36dfe7c1ef0a907418b555622be14a24, type: 2}
+  - {fileID: 2100000, guid: 9138102c0ea355244a5c52d3b71dc415, type: 2}
+  GreyMaterials:
+  - {fileID: 2100000, guid: 2c28e7226c636f249976ad798250c933, type: 2}
+  - {fileID: 2100000, guid: 33b0bacf00770e64bb8531fd6ce621ea, type: 2}
+  - {fileID: 2100000, guid: 341a1cbd5de87e8438ace444cee94044, type: 2}
+  FunctionalAnimation: {fileID: 0}
+  AccentAnimation: {fileID: 0}

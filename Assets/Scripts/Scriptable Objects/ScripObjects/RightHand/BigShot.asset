@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf22bf8a396c6ea439f3d72c1d6dc92b, type: 3}
+  m_Name: BigShot
+  m_EditorClassIdentifier: 
+  Name: 0
+  Mesh: {fileID: 904010265871358817, guid: 067fbf984548c1b4e9b5d6da6f32387c, type: 3}
+  RedMaterials:
+  - {fileID: 2100000, guid: 84f9a703a30b06342b4eab735a6316ed, type: 2}
+  - {fileID: 2100000, guid: 117f3d3efc1d8d04894798b40208a8dd, type: 2}
+  - {fileID: 2100000, guid: c5f6c9954c9cc9e4a8ab7ef08b4db8fa, type: 2}
+  BlueMaterials:
+  - {fileID: 2100000, guid: 812fb9748ddfff14294df7a3c2ebe915, type: 2}
+  - {fileID: 2100000, guid: 1d226a883021cc44382d998117b56751, type: 2}
+  - {fileID: 2100000, guid: a06416cea963a1f4aa6a4cc8ddc2b50e, type: 2}
+  GreyMaterials:
+  - {fileID: 2100000, guid: 133d3b3b4d71cfb46ba96f2275ec0aa0, type: 2}
+  - {fileID: 2100000, guid: b73c4b38ca7336a4badfb6dbcee13ce3, type: 2}
+  - {fileID: 2100000, guid: 7a721a96b991dd046befe78b0f4cbdde, type: 2}
+  FunctionalAnimation: {fileID: 0}
+  AccentAnimation: {fileID: 0}

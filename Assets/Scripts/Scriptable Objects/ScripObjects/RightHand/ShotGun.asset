@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf22bf8a396c6ea439f3d72c1d6dc92b, type: 3}
+  m_Name: ShotGun
+  m_EditorClassIdentifier: 
+  Name: 12
+  Mesh: {fileID: 4740341718228727825, guid: 067fbf984548c1b4e9b5d6da6f32387c, type: 3}
+  RedMaterials:
+  - {fileID: 2100000, guid: bf3c4fe19a5863f4baab7f586b575275, type: 2}
+  - {fileID: 2100000, guid: 86d2045da5de41443b53fe812aad9ffb, type: 2}
+  - {fileID: 2100000, guid: a7e5009d84d019f46be8635734cf8f71, type: 2}
+  - {fileID: 2100000, guid: df025b5b52d2a3847b320319f4688d39, type: 2}
+  BlueMaterials:
+  - {fileID: 2100000, guid: 4ccff5be800ef2c4d986a5ab732adb85, type: 2}
+  - {fileID: 2100000, guid: 7ed91e26c158ee548a64fe79c8c92c81, type: 2}
+  - {fileID: 2100000, guid: ac4be36799653f548a6e6adb0d8fb237, type: 2}
+  - {fileID: 2100000, guid: 263f56d7736c888448dc45ae78bc40ea, type: 2}
+  GreyMaterials:
+  - {fileID: 2100000, guid: 3b92a8ef8d7e49e4683d65e623920956, type: 2}
+  - {fileID: 2100000, guid: 48258982afa267f4e97b7f6f0a046e08, type: 2}
+  - {fileID: 2100000, guid: 4b88b49079cbc914c9bbb51c6b658731, type: 2}
+  - {fileID: 2100000, guid: 281b1f1f4d4bcb84c8a87cb648e22b0e, type: 2}
+  ExtraAccent: 0
+  RedAccentMaterial: {fileID: 0}
+  BlueAccentMaterial: {fileID: 0}
+  GreyAccentMaterial: {fileID: 0}
